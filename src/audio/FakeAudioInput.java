@@ -1,4 +1,4 @@
-package noteworthy.audio;
+package audio;
 
 // NOTE: DO NOT DELETE
 // IMPORTANT FOR TESTING!!!

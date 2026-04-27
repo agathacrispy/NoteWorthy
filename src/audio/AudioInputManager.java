@@ -1,4 +1,4 @@
-package noteworthy.audio;
+package audio;
 
 public class AudioInputManager implements AudioInput {
     @Override

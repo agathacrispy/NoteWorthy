@@ -1,4 +1,4 @@
-package noteworthy.model;
+package model;
 
 public class LyricLine {
     private String text;
