@@ -1,4 +1,4 @@
-package noteworthy.loader;
+package loader;
 
 public class SettingsManager {
 }

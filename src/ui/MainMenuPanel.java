@@ -1,4 +1,4 @@
-package noteworthy.ui;
+package ui;
 
 import javax.swing.JPanel;
 

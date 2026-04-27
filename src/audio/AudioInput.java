@@ -1,4 +1,4 @@
-package noteworthy.audio;
+package audio;
 
 public interface AudioInput {
     float[] readFrame();
