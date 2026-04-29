@@ -10,7 +10,7 @@ import java.util.regex.Matcher;
 import java.io.*;
 
 public class SongLoader {
-    ArrayList<LyricLine> lyrics = new ArrayList<LyricLine>();
+    public ArrayList<LyricLine> lyrics = new ArrayList<LyricLine>();
 
     public void loadLyrics() {
         try
@@ -27,12 +27,9 @@ public class SongLoader {
                     long seconds = Long.parseLong(matcher.group(2));
                     long centiseconds = Long.parseLong(matcher.group(3));
                     String text = matcher.group(4).trim();
+                    //System.out.println(text);
                     long startMs = minutes * 60000 + seconds * 1000 + centiseconds * 10;
                     if (lyrics != null) { lyrics.add(new LyricLine(text, startMs)); }
-                }
-
-                for (LyricLine ll : lyrics) {
-                    System.out.println(ll.getLine());
                 }
             }
             br.close();

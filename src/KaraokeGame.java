@@ -1,9 +1,11 @@
 import ui.GameplayPanel;
 import ui.MainMenuPanel;
-import javax.swing.JFrame;
+import java.awt.*;
+import javax.swing.*;
 import javax.swing.SwingUtilities;
 
 public class KaraokeGame {
+
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
             JFrame frame = new JFrame("Noteworthy");
